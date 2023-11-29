@@ -63,9 +63,21 @@ function generateHTML(data) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <title>${data.name}'s Portfolio</title>
     <style>
-      /* Add the CSS styling here */
+    * {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
+    font-size: 100%;
+  }
       body {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Segoe UI', sans-serif;
+        color: #333;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
       }
       /* Add more styles as needed */
     </style>
