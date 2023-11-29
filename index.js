@@ -37,12 +37,12 @@ const fs = require('fs');
     {
       type: 'input',
       name: 'instagram',
-      message: 'Your Instagram username:',
+      message: 'Your Instagram profile URL:',
     },
     {
       type: 'input',
       name: 'github',
-      message: 'Your GitHub username:',
+      message: 'Your GitHub profile URL:',
     },
     {
       type: 'input',
